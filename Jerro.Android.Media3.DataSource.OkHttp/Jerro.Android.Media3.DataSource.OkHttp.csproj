@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Jerro.Android.Media3.DataSource.OkHttp</AssemblyName>
+    <RootNamespace>Jerro.Android.Media3.DataSource.OkHttp</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <Company>Jerro</Company>
+    <Copyright>Copyright (C) Jerry Berry</Copyright>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>$(Company)</Authors>
+    <PackageTags>ffmpeg kit android min</PackageTags>
+    <PackageProjectUrl>https://github.com/jerry08/Jerro.FFmpegKit.Android.Min</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <DebugType>embedded</DebugType>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Square.OkHttp3" Version="4.12.0.6" />
+    <PackageReference Include="Xamarin.AndroidX.Media3.Common" Version="1.4.1" />
+    <PackageReference Include="Xamarin.AndroidX.Media3.DataSource" Version="1.4.1" />
+  </ItemGroup>
+</Project>
