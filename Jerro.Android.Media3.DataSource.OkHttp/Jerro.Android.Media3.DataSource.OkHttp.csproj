@@ -4,16 +4,9 @@
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>true</IsPackable>
     <AssemblyName>Jerro.Android.Media3.DataSource.OkHttp</AssemblyName>
     <RootNamespace>Jerro.Android.Media3.DataSource.OkHttp</RootNamespace>
-  </PropertyGroup>
-
-  <PropertyGroup>
-    <Version>1.0.0</Version>
-    <Company>Jerro</Company>
-    <Copyright>Copyright (C) Jerry Berry</Copyright>
-    <LangVersion>latest</LangVersion>
-    <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <PropertyGroup>
