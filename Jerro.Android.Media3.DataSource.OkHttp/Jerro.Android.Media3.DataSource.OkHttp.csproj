@@ -19,7 +19,7 @@
   <PropertyGroup>
     <Authors>$(Company)</Authors>
     <PackageTags>ffmpeg kit android min</PackageTags>
-    <PackageProjectUrl>https://github.com/jerry08/Jerro.FFmpegKit.Android.Min</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/jerry08/Jerro.Android.Media3.DataSource.OkHttp</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -29,8 +29,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Square.OkHttp3" Version="4.12.0.6" />
-    <PackageReference Include="Xamarin.AndroidX.Media3.Common" Version="1.4.1" />
-    <PackageReference Include="Xamarin.AndroidX.Media3.DataSource" Version="1.4.1" />
+    <PackageReference Include="Square.OkHttp3" Version="4.12.0.10" />
+    <PackageReference Include="Xamarin.AndroidX.Media3.Common" Version="1.7.1" />
+    <PackageReference Include="Xamarin.AndroidX.Media3.DataSource" Version="1.7.1" />
   </ItemGroup>
 </Project>
