@@ -11,7 +11,7 @@
 
   <PropertyGroup>
     <Authors>$(Company)</Authors>
-    <PackageTags>ffmpeg kit android min</PackageTags>
+    <PackageTags>Xamarin.Android NET MAUI Media3.ExoPlayer ExoPlayer audio video media player streaming</PackageTags>
     <PackageProjectUrl>https://github.com/jerry08/Jerro.Android.Media3.DataSource.OkHttp</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
