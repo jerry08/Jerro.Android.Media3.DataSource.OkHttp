@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".github/workflows/nuget.yml" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="Jerro.Android.Media3.DataSource.OkHttp/Jerro.Android.Media3.DataSource.OkHttp.csproj" />
+</Solution>
