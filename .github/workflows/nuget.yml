@@ -14,12 +14,12 @@ jobs:
         with:
           dotnet-version: 10.0.x
       
-      - name: Restore dependencies
-        run: dotnet restore
-      
       - name: Install MAUI Workload
         run: dotnet workload install maui --ignore-failed-sources
 
+      - name: Restore dependencies
+        run: dotnet restore
+      
       - name: Build
         run: dotnet build --no-restore -p:CSharpier_Bypass=true
 
